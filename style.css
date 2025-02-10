@@ -1,0 +1,7 @@
+img {transition: all .5s ease-in-out;}
+img:hover {transform: scale(1.2);}
+.card {overflow: hidden;}
+.card a {overflow: hidden;}
+
+
+/*😺: '90000000000000000000p'*/
