@@ -152,10 +152,25 @@
 
 <hr><!--------------------------------------------------->
 
-<h1>Za razmislek</h1>
+<h1>Za razmislek: <button type="button" class="btn btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#okno">Dodatna naloga</button></h1>
 
-<div class="d-flex my-3">
-    <iframe src="https://is1gikma.splet.arnes.si/wp-admin/admin-ajax.php?action=h5p_embed&id=7" width="1600" height="900" frameborder="0" allowfullscreen="allowfullscreen" title="Simulacije"></iframe><script src="https://is1gikma.splet.arnes.si/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<div class="modal fade" id="okno">
+    <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Za razmislek</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex">
+                    <iframe src="https://is1gikma.splet.arnes.si/wp-admin/admin-ajax.php?action=h5p_embed&id=7" width="800px" height="450px" allowfullscreen="allowfullscreen" title="Razvrsti"></iframe><script src="https://is1gikma.splet.arnes.si/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script></div>
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Zapri</button>
+                <button type="button" class="btn btn-primary">Shrani</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 </div>
