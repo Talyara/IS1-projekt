@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="sl">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2/dist/minty/bootstrap.min.css" integrity="sha256-kPWG8ceLDt5hsiJshP6EY9XyhmDqoN3+5MT4t/dQXKY=" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <title>Simulacije in modeliranje v znanstvenih raziskavah</title>
-    </head>
 
-    <body class="bg-light bg-gradient text-primary-emphasis">
+<!--------------------------------------------------->
 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2/dist/minty/bootstrap.min.css" integrity="sha256-kPWG8ceLDt5hsiJshP6EY9XyhmDqoN3+5MT4t/dQXKY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulacije in modeliranje v znanstvenih raziskavah</title>
+</head>
+
+<!--------------------------------------------------->
+
+<body class="bg-light bg-gradient text-primary-emphasis">
 <!--------------------------------------------------->
 
 <div id="header" class="jumbotron-fluid text-center mb-0 p-5 pb-1 bg-primary bg-gradient">
@@ -25,9 +29,7 @@
     <div id="glavnimeni" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto"> 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Domov
-                </a>
+                <a class="nav-link dropdown-toggle btn btn-primary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Domov</a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="./home.html#namen">Namen</a></li>
                     <li><a class="dropdown-item" href="./home.html#povzetek">Povzetek</a></li>
@@ -55,11 +57,13 @@
 
 <div id="vsebina" class="container col-xl-8 col-md-10">
 
-<div class="row">
+<h1>Interakivne simulacije in modeliranje</h1>
+
+<div id="intro" class="row">
 
     <p class="col-lg-6">Interaktivni sistemi za simulacije in modelacije so računalniško podprta orodja in platforme, ki omogočajo znanstvenikom in raziskovalcem, da ustvarijo, prilagodijo in analizirajo virtualne modele kompleksnih procesov in sistemov. Ti sistemi simulirajo vedenje naravnih ali tehnoloških pojavov pod različnimi pogoji, kar omogoča preučevanje, optimizacijo in napovedovanje rezultatov brez potrebe po fizičnih eksperimentih.</p>
 
-    <div class="card-group border-info col">
+    <div id="ProCon" class="card-group border-info col">
         <div class="card border-success">
             <div class="card-header bg-success text-light text-center pt-3">
                 <h3 class="card-title">Prednosti</h3>
@@ -88,61 +92,71 @@
             </div>
         </div>
     </div>
-</div>
-<hr>
-    <h1>Primeri</h1>
 
-    <div class="row my-2">
-        <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
-            <a href="https://www.comsol.com/comsol-multiphysics">
-                <img class="card-img-top" src="https://cdn.comsol.com/product-new/comsol-multiphysics/full/3d-permanent-magnet-motor-comsol.webp" alt="Simulacija magnetnega polja v elektromotorju">
-            </a>
-            <div class="card-footer text-center">
-                <small class="text-muted">Simulacija magnetnega polja v elektromotorju</small>
-            </div>
-        </div>
-        <div class="col align-self-center m-1">
-            <h2>COMSOL Multiphysics</h2>
-            <p>Program za modeliranje in simulacijo fizikalnih procesov, ki vplivajo na okolje. Uporablja se za preučevanje multifizikalnih interakcij, kot so prenos toplote, hidrodinamika, kemijski procesi in mehanske interakcije.</p>
-            <p>Najbolj priljubljen je v inženirstvu, zlasti v letalski, avtomobilski, energetski in gradbeni industriji.</p>
-        </div>
-    </div>
-<hr>
-    <div class="row my-2">
-        <div class="col m-1 align-self-center text-md-end">
-            <h2 class="text-md-end">AnyLogic</h2>
-            <p>Napreden programski paket za računalniško simulacijo in modeliranje različnih sistemov, ki vključujejo dinamične procese. Omogoča modeliranje v različnih simulacijskih pristopih, kot so diskretna eventna simulacija (DES), agentno temelječa simulacija (ABS) in kontinuirajoča simulacija (CS). AnyLogic omogoča analizo kompleksnih sistemov, v katerih so vključene interakcije med posameznimi enotami (agenti) in vplivi na celoten sistem skozi čas.</p>
-        </div>
-        <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
-            <a href="https://www.anylogic.com/">
-                <img class="card-img-top" src="https://www.anylogic.com/upload/iblock/d00/d005dde24310b042aa28519608bb3c71.webp" alt="Simulacija gibanja pešcev skozi vhod podzemne železnice">
-            </a>
-            <div class="card-footer text-center">
-                <small class="text-muted">Simulacija gibanja pešcev skozi vhod podzemne železnice</small>
-            </div>
+</div>
+
+<hr><!--------------------------------------------------->
+
+<h1>Primeri</h1>
+
+<div id="COMSOL" class="row my-2">
+    <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
+        <a href="https://www.comsol.com/comsol-multiphysics">
+            <img class="card-img-top" src="https://cdn.comsol.com/product-new/comsol-multiphysics/full/3d-permanent-magnet-motor-comsol.webp" alt="Simulacija magnetnega polja v elektromotorju">
+        </a>
+        <div class="card-footer text-center">
+            <small class="text-muted">Simulacija magnetnega polja v elektromotorju</small>
         </div>
     </div>
-<hr>
-    <div class="row my-2">
-        <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
-            <a href="https://vcell.org/">
-                <img class="card-img-top" src="https://vcell.org/wp-content/uploads/2015/11/montage_20yrs.png" alt="Primeri različnih simulacij v programu VCell">
-            </a>
-            <div class="card-footer text-center">
-                <small class="text-muted">Primeri različnih simulacij v programu VCell</small>
-            </div>
-        </div>
-        <div class="col align-self-center m-1">
-            <h2>VCell</h2>
-            <p>Orodje za simulacijo bioloških procesov na celičnem nivoju in je široko uporabljeno v raziskovalnih institucijah in biotehnoloških podjetjih, ki se ukvarjajo z biološkimi raziskavami in razvojem zdravil.</p>
-            <p>VCell omogoča raziskovalcem, da modelirajo, kako molekule (kot so zdravila ali signalne molekule) vplivajo na različne celične procese, kot so celična signalizacija, transport in presnova, kar je ključno pri razvoju novih terapevtskih strategij.</p>
+    <div class="col align-self-center m-1">
+        <h2>COMSOL Multiphysics</h2>
+        <p>Program za modeliranje in simulacijo fizikalnih procesov, ki vplivajo na okolje. Uporablja se za preučevanje multifizikalnih interakcij, kot so prenos toplote, hidrodinamika, kemijski procesi in mehanske interakcije.</p>
+        <p>Najbolj priljubljen je v inženirstvu, zlasti v letalski, avtomobilski, energetski in gradbeni industriji.</p>
+    </div>
+</div>
+
+<hr><!--------------------------------------------------->
+
+<div id="AnyLogic" class="row my-2">
+    <div class="col m-1 align-self-center text-md-end">
+        <h2 class="text-md-end">AnyLogic</h2>
+        <p>Napreden programski paket za računalniško simulacijo in modeliranje različnih sistemov, ki vključujejo dinamične procese. Omogoča modeliranje v različnih simulacijskih pristopih, kot so diskretna eventna simulacija (DES), agentno temelječa simulacija (ABS) in kontinuirajoča simulacija (CS). AnyLogic omogoča analizo kompleksnih sistemov, v katerih so vključene interakcije med posameznimi enotami (agenti) in vplivi na celoten sistem skozi čas.</p>
+    </div>
+    <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
+        <a href="https://www.anylogic.com/">
+            <img class="card-img-top" src="https://www.anylogic.com/upload/iblock/d00/d005dde24310b042aa28519608bb3c71.webp" alt="Simulacija gibanja pešcev skozi vhod podzemne železnice">
+        </a>
+        <div class="card-footer text-center">
+            <small class="text-muted">Simulacija gibanja pešcev skozi vhod podzemne železnice</small>
         </div>
     </div>
-<hr>
+</div>
+
+<hr><!--------------------------------------------------->
+
+<div id="VCell" class="row my-2">
+    <div class="card p-0 m-1 col-md-6 col-lg-7 col-xl-8 h-100">
+        <a href="https://vcell.org/">
+            <img class="card-img-top" src="https://vcell.org/wp-content/uploads/2015/11/montage_20yrs.png" alt="Primeri različnih simulacij v programu VCell">
+        </a>
+        <div class="card-footer text-center">
+            <small class="text-muted">Primeri različnih simulacij v programu VCell</small>
+        </div>
+    </div>
+    <div class="col align-self-center m-1">
+        <h2>VCell</h2>
+        <p>Orodje za simulacijo bioloških procesov na celičnem nivoju in je široko uporabljeno v raziskovalnih institucijah in biotehnoloških podjetjih, ki se ukvarjajo z biološkimi raziskavami in razvojem zdravil.</p>
+        <p>VCell omogoča raziskovalcem, da modelirajo, kako molekule (kot so zdravila ali signalne molekule) vplivajo na različne celične procese, kot so celična signalizacija, transport in presnova, kar je ključno pri razvoju novih terapevtskih strategij.</p>
+    </div>
+</div>
+
+<hr><!--------------------------------------------------->
 
 <h1>Za razmislek</h1>
- 
-<iframe src="https://is1gikma.splet.arnes.si/wp-admin/admin-ajax.php?action=h5p_embed&id=7" width="1600" height="900" frameborder="0" allowfullscreen="allowfullscreen" title="Simulacije"></iframe><script src="https://is1gikma.splet.arnes.si/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+<div class="d-flex my-3">
+    <iframe src="https://is1gikma.splet.arnes.si/wp-admin/admin-ajax.php?action=h5p_embed&id=7" width="1600" height="900" frameborder="0" allowfullscreen="allowfullscreen" title="Simulacije"></iframe><script src="https://is1gikma.splet.arnes.si/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+</div>
 
 </div>
 
@@ -171,6 +185,6 @@
 </footer>
 
 <!--------------------------------------------------->
+</body>
 
-    </body>
 </html>
